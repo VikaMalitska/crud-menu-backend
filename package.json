@@ -1,0 +1,27 @@
+{
+  "name": "crud-hot-dog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VikaMalitska/crud-hot-dog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VikaMalitska/crud-hot-dog/issues"
+  },
+  "homepage": "https://github.com/VikaMalitska/crud-hot-dog#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.6.8",
+    "mongoose-sequence": "^5.1.0",
+    "nodemon": "^1.19.1"
+  }
+}
